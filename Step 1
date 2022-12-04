@@ -1,0 +1,11 @@
+echo "# My-setup" >> README.md
+
+Pkg install git
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/chillan0420/My-setup.git
+git push -u origin main
+
+Pkg install python3
